@@ -22,9 +22,9 @@ class TabBarPokedex: UITabBarController {
     private func setupTabs() {
         
         let pokedex = self.createNav(with: "Pokédex", and: UIImage(named: stringAssets.pokeballTabBar), vc: PokedexViewController())
-        let region = self.createNav(with: "Region", and: UIImage(named: stringAssets.PokePin), vc: RegionViewController())
-        let favorites = self.createNav(with: "Favorites", and: UIImage(named: stringAssets.PokeHeart), vc: FavoritesViewController())
-        let profile = self.createNav(with: "Profile", and: UIImage(named: stringAssets.ProfileTabBar), vc: ProfileViewController())
+        let region = self.createNav(with: NSLocalizedString("tabBar-region", comment: ""), and: UIImage(named: stringAssets.PokePin), vc: RegionViewController())
+        let favorites = self.createNav(with: NSLocalizedString("tabBar-favorites", comment: ""), and: UIImage(named: stringAssets.PokeHeart), vc: FavoritesViewController())
+        let profile = self.createNav(with: NSLocalizedString("tabBar-profile", comment: ""), and: UIImage(named: stringAssets.ProfileTabBar), vc: ProfileViewController())
         
         self.setViewControllers([pokedex, region, favorites, profile], animated: true)
         

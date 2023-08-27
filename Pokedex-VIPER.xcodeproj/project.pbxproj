@@ -50,6 +50,8 @@
 		E68327182A8D39F4004971E7 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E68327162A8D39F4004971E7 /* Poppins-Medium.ttf */; };
 		E683271A2A8D535C004971E7 /* OnboardingThirdPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68327192A8D535C004971E7 /* OnboardingThirdPart.swift */; };
 		E683271B2A8D535C004971E7 /* OnboardingThirdPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68327192A8D535C004971E7 /* OnboardingThirdPart.swift */; };
+		E6B7543D2A9B2A2000A26C97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6B7543C2A9B2A2000A26C97 /* GoogleService-Info.plist */; };
+		E6B754412A9BD1D900A26C97 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6B754432A9BD1D900A26C97 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,12 @@
 		E683270D2A8D38EC004971E7 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		E68327162A8D39F4004971E7 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		E68327192A8D535C004971E7 /* OnboardingThirdPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingThirdPart.swift; sourceTree = "<group>"; };
+		E6B7543C2A9B2A2000A26C97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6B754422A9BD1D900A26C97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6B754442A9BD20900A26C97 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E6B754452A9BD20900A26C97 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6B754462A9BD21A00A26C97 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E6B754472A9BD21A00A26C97 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E89C1F49D3F3AB8F57430685 /* Pods-Pokedex-VIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPERTests.release.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPERTests/Pods-Pokedex-VIPERTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +154,6 @@
 				A145E12399FB2C7B20F7F051 /* Pods-Pokedex-VIPERTests.debug.xcconfig */,
 				E89C1F49D3F3AB8F57430685 /* Pods-Pokedex-VIPERTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -238,11 +245,13 @@
 			isa = PBXGroup;
 			children = (
 				E68327092A8D38EC004971E7 /* Fonts */,
+				E6B7543C2A9B2A2000A26C97 /* GoogleService-Info.plist */,
 				E67008D82A72113000E92F5A /* LaunchScreen.storyboard */,
 				E67008D12A72112F00E92F5A /* ViewController.swift */,
 				E67008CD2A72112F00E92F5A /* AppDelegate.swift */,
 				E67008CF2A72112F00E92F5A /* SceneDelegate.swift */,
 				E67008D62A72113000E92F5A /* Assets.xcassets */,
+				E6B754432A9BD1D900A26C97 /* Localizable.strings */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 		E670091D2A7434CA00E92F5A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E6B7543E2A9B2D7D00A26C97 /* CreateAccount */,
 				E68326FE2A8D304C004971E7 /* Onboarding */,
 				E670090C2A7430A400E92F5A /* TabBarPokedex */,
 				E67008FE2A7411F600E92F5A /* SplashScreen */,
@@ -305,6 +315,13 @@
 				E68327162A8D39F4004971E7 /* Poppins-Medium.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E6B7543E2A9B2D7D00A26C97 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreateAccount;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +415,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				fr,
 			);
 			mainGroup = E67008C12A72112F00E92F5A;
 			productRefGroup = E67008CB2A72112F00E92F5A /* Products */;
@@ -417,8 +436,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67008DA2A72113000E92F5A /* LaunchScreen.storyboard in Resources */,
+				E6B7543D2A9B2A2000A26C97 /* GoogleService-Info.plist in Resources */,
 				E68327172A8D39F4004971E7 /* Poppins-Medium.ttf in Resources */,
 				E683270E2A8D38EC004971E7 /* Poppins-Light.ttf in Resources */,
+				E6B754412A9BD1D900A26C97 /* Localizable.strings in Resources */,
 				E68327122A8D38EC004971E7 /* Poppins-Bold.ttf in Resources */,
 				E68327142A8D38EC004971E7 /* Poppins-SemiBold.ttf in Resources */,
 				E67008D72A72113000E92F5A /* Assets.xcassets in Resources */,
@@ -620,8 +641,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				E67008D92A72113000E92F5A /* Base */,
+				E6B754442A9BD20900A26C97 /* es */,
+				E6B754462A9BD21A00A26C97 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E6B754432A9BD1D900A26C97 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B754422A9BD1D900A26C97 /* en */,
+				E6B754452A9BD20900A26C97 /* es */,
+				E6B754472A9BD21A00A26C97 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -631,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -677,7 +711,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -691,6 +725,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -731,7 +766,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -757,7 +792,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -787,7 +822,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

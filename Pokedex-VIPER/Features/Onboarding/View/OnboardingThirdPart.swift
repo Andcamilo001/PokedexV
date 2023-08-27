@@ -20,7 +20,7 @@ class OnboardingThirdPart: UIViewController {
     
     private func setupUI() {
         let skipLabel = UILabel()
-        skipLabel.text = textsApp.OnboardingThirdPartSkip
+        skipLabel.text = NSLocalizedString("onboarding-third-part-skip", comment: "")
         skipLabel.font = UIFont(name: Fonts.poppinsMedium, size: SizeScreen.width * 0.05)
         skipLabel.textAlignment = .right
         skipLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -37,21 +37,21 @@ class OnboardingThirdPart: UIViewController {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
         let titleLabel = UILabel()
-        titleLabel.text = textsApp.OnboardingThirdPartTitle
+        titleLabel.text = NSLocalizedString("onboarding-third-part-title", comment: "")
         titleLabel.font = UIFont(name: Fonts.poppinsMedium, size: SizeScreen.width * 0.072)
         titleLabel.numberOfLines = 2
         titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let bodyLabel = UILabel()
-        bodyLabel.text = textsApp.OnboardingThirdPartBody
+        bodyLabel.text = NSLocalizedString("onboarding-third-part-body", comment: "")
         bodyLabel.font = UIFont(name: Fonts.poppinsMedium, size: SizeScreen.width * 0.038)
         bodyLabel.numberOfLines = 4
         bodyLabel.textAlignment = .center
         bodyLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let createAccountButton = UIButton()
-        createAccountButton.setTitle(textsApp.OnboardingThirdPartButton, for: .normal)
+        createAccountButton.setTitle(NSLocalizedString("onboarding-third-part-button", comment: ""), for: .normal)
         createAccountButton.setTitleColor(.white, for: .normal)
         createAccountButton.titleLabel?.font = UIFont(name: Fonts.poppinsSemiBold, size: SizeScreen.width * 0.05)
         createAccountButton.backgroundColor = UIColor(red: 23/255, green: 62/255, blue: 165/255, alpha: 1)
@@ -60,7 +60,7 @@ class OnboardingThirdPart: UIViewController {
         createAccountButton.translatesAutoresizingMaskIntoConstraints = false
         
         let existsAccountButton = UIButton()
-        existsAccountButton.setTitle(textsApp.OnboardingThirdPartButtonAccountExists, for: .normal)
+        existsAccountButton.setTitle(NSLocalizedString("onboarding-third-part-button-account-exists", comment: ""), for: .normal)
         existsAccountButton.setTitleColor(UIColor(red: 23/255, green: 62/255, blue: 165/255, alpha: 1), for: .normal)
         existsAccountButton.titleLabel?.font = UIFont(name: Fonts.poppinsSemiBold, size: SizeScreen.width * 0.05)
         existsAccountButton.backgroundColor = .white

@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Pokedex-VIPER
+
+  Created by Camilo Lezcano on 27/08/23.
+  
+*/
+
+"tabBar-region" = "Région";
+"tabBar-favorites" = "Favoris";
+"tabBar-profile" = "Profil";
+"onboarding-title" = "Tous les Pokémon en un seul endroit";
+"onboarding-body" = "Accès à une liste exhaustive de Pokémon de toutes les générations de Nintendo.";
+"onboarding-button" = "Suivant";
+"onboarding-second-part-title" = "Tiens ton Pokédex à jour";
+"onboarding-second-part-body" = "Enregistrez-vous et conservez vos profils Pokémon préférés, vos paramètres et bien plus encore dans l'application, même sans connexion Internet.";
+"onboarding-second-part-button" = "¡Commençons!";
+"onboarding-third-part-skip" = "Sauter";
+"onboarding-third-part-title" = "¿Êtes-vous prêt pour cette aventure?";
+"onboarding-third-part-body" = "Il suffit de créer un compte et de commencer à explorer le monde de Pokémon dès aujourd'hui.";
+"onboarding-third-part-button" = "Créer un compte";
+"onboarding-third-part-button-account-exists" = "J'ai un compte";

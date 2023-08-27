@@ -24,14 +24,14 @@ class OnboardingSecondPart: UIViewController {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
         let titleLabel = UILabel()
-        titleLabel.text = textsApp.OnboardingSecondPartTitle
+        titleLabel.text = NSLocalizedString("onboarding-second-part-title", comment: "")
         titleLabel.font = UIFont(name: Fonts.poppinsMedium, size: SizeScreen.width * 0.072)
         titleLabel.numberOfLines = 2
         titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let bodyLabel = UILabel()
-        bodyLabel.text = textsApp.OnboardingSecondPartBody
+        bodyLabel.text = NSLocalizedString("onboarding-second-part-body", comment: "")
         bodyLabel.font = UIFont(name: Fonts.poppinsMedium, size: SizeScreen.width * 0.038)
         bodyLabel.numberOfLines = 4
         bodyLabel.textAlignment = .center
@@ -48,7 +48,7 @@ class OnboardingSecondPart: UIViewController {
         grayCircle.translatesAutoresizingMaskIntoConstraints = false
         
         let continueButton = UIButton()
-        continueButton.setTitle(textsApp.OnboardingSecondPartButton, for: .normal)
+        continueButton.setTitle(NSLocalizedString("onboarding-second-part-button", comment: ""), for: .normal)
         continueButton.setTitleColor(.white, for: .normal)
         continueButton.titleLabel?.font = UIFont(name: Fonts.poppinsSemiBold, size: SizeScreen.width * 0.05)
         continueButton.backgroundColor = UIColor(red: 23/255, green: 62/255, blue: 165/255, alpha: 1)
