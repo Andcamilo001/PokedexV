@@ -1,0 +1,6 @@
+framework module Pods_Pokedex_VIPER_Pokedex_VIPERUITests {
+  umbrella header "Pods-Pokedex-VIPER-Pokedex-VIPERUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

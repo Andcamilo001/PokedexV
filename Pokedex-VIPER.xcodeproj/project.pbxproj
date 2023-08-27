@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29F1F0B0A450B26B8C9192CF /* Pods_Pokedex_VIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E760B628E6024CCCD8FB2F7 /* Pods_Pokedex_VIPERTests.framework */; };
+		47D09112C292925D9CCEAF49 /* Pods_Pokedex_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F143B47AEB0E62D2054E0C /* Pods_Pokedex_VIPER.framework */; };
+		4FC11A34ABEA502863285458 /* Pods_Pokedex_VIPER_Pokedex_VIPERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE55407B11709D016C427D4 /* Pods_Pokedex_VIPER_Pokedex_VIPERUITests.framework */; };
 		E67008CE2A72112F00E92F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67008CD2A72112F00E92F5A /* AppDelegate.swift */; };
 		E67008D02A72112F00E92F5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67008CF2A72112F00E92F5A /* SceneDelegate.swift */; };
 		E67008D22A72112F00E92F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67008D12A72112F00E92F5A /* ViewController.swift */; };
@@ -67,6 +70,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE55407B11709D016C427D4 /* Pods_Pokedex_VIPER_Pokedex_VIPERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_VIPER_Pokedex_VIPERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F143B47AEB0E62D2054E0C /* Pods_Pokedex_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6046C13BD523EAC41D598CD9 /* Pods-Pokedex-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPER/Pods-Pokedex-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		651BB034000C501A6D55A3EF /* Pods-Pokedex-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPER.release.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPER/Pods-Pokedex-VIPER.release.xcconfig"; sourceTree = "<group>"; };
+		7E760B628E6024CCCD8FB2F7 /* Pods_Pokedex_VIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_VIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A145E12399FB2C7B20F7F051 /* Pods-Pokedex-VIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPERTests.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPERTests/Pods-Pokedex-VIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2EE4DF5AEB08B6ECCAF202 /* Pods-Pokedex-VIPER-Pokedex-VIPERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPER-Pokedex-VIPERUITests.release.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPER-Pokedex-VIPERUITests/Pods-Pokedex-VIPER-Pokedex-VIPERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1DEF6852C7B7E1604EADF21 /* Pods-Pokedex-VIPER-Pokedex-VIPERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPER-Pokedex-VIPERUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPER-Pokedex-VIPERUITests/Pods-Pokedex-VIPER-Pokedex-VIPERUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E67008CA2A72112F00E92F5A /* Pokedex-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokedex-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67008CD2A72112F00E92F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E67008CF2A72112F00E92F5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +105,7 @@
 		E683270D2A8D38EC004971E7 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		E68327162A8D39F4004971E7 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		E68327192A8D535C004971E7 /* OnboardingThirdPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingThirdPart.swift; sourceTree = "<group>"; };
+		E89C1F49D3F3AB8F57430685 /* Pods-Pokedex-VIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-VIPERTests.release.xcconfig"; path = "Target Support Files/Pods-Pokedex-VIPERTests/Pods-Pokedex-VIPERTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D09112C292925D9CCEAF49 /* Pods_Pokedex_VIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F1F0B0A450B26B8C9192CF /* Pods_Pokedex_VIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,18 +129,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC11A34ABEA502863285458 /* Pods_Pokedex_VIPER_Pokedex_VIPERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A526C112814A2AE752402A30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6046C13BD523EAC41D598CD9 /* Pods-Pokedex-VIPER.debug.xcconfig */,
+				651BB034000C501A6D55A3EF /* Pods-Pokedex-VIPER.release.xcconfig */,
+				C1DEF6852C7B7E1604EADF21 /* Pods-Pokedex-VIPER-Pokedex-VIPERUITests.debug.xcconfig */,
+				AC2EE4DF5AEB08B6ECCAF202 /* Pods-Pokedex-VIPER-Pokedex-VIPERUITests.release.xcconfig */,
+				A145E12399FB2C7B20F7F051 /* Pods-Pokedex-VIPERTests.debug.xcconfig */,
+				E89C1F49D3F3AB8F57430685 /* Pods-Pokedex-VIPERTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFC96DBBBF1E07B9AE274DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47F143B47AEB0E62D2054E0C /* Pods_Pokedex_VIPER.framework */,
+				1BE55407B11709D016C427D4 /* Pods_Pokedex_VIPER_Pokedex_VIPERUITests.framework */,
+				7E760B628E6024CCCD8FB2F7 /* Pods_Pokedex_VIPERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E67008C12A72112F00E92F5A = {
 			isa = PBXGroup;
 			children = (
 				E67008CC2A72112F00E92F5A /* Pokedex-VIPER */,
 				E67008E32A72113000E92F5A /* Pokedex-VIPERTests */,
 				E67008CB2A72112F00E92F5A /* Products */,
+				A526C112814A2AE752402A30 /* Pods */,
+				CFC96DBBBF1E07B9AE274DBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67008F42A72113000E92F5A /* Build configuration list for PBXNativeTarget "Pokedex-VIPER" */;
 			buildPhases = (
+				3F7CA4D2D68CF3DA61878FD0 /* [CP] Check Pods Manifest.lock */,
 				E67008C62A72112F00E92F5A /* Sources */,
 				E67008C72A72112F00E92F5A /* Frameworks */,
 				E67008C82A72112F00E92F5A /* Resources */,
+				1B5CD5B4CC116485E6C71D8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67008F72A72113000E92F5A /* Build configuration list for PBXNativeTarget "Pokedex-VIPERTests" */;
 			buildPhases = (
+				1FA6359ED113214C9A279DD7 /* [CP] Check Pods Manifest.lock */,
 				E67008DC2A72113000E92F5A /* Sources */,
 				E67008DD2A72113000E92F5A /* Frameworks */,
 				E67008DE2A72113000E92F5A /* Resources */,
@@ -308,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67008FA2A72113000E92F5A /* Build configuration list for PBXNativeTarget "Pokedex-VIPERUITests" */;
 			buildPhases = (
+				C90DB78B1B132A8BBED108E2 /* [CP] Check Pods Manifest.lock */,
 				E67008E62A72113000E92F5A /* Sources */,
 				E67008E72A72113000E92F5A /* Frameworks */,
 				E67008E82A72113000E92F5A /* Resources */,
+				5F0104E3578C543DC9AAAF02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,6 +446,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5CD5B4CC116485E6C71D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pokedex-VIPER/Pods-Pokedex-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pokedex-VIPER/Pods-Pokedex-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pokedex-VIPER/Pods-Pokedex-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA6359ED113214C9A279DD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pokedex-VIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7CA4D2D68CF3DA61878FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pokedex-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0104E3578C543DC9AAAF02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pokedex-VIPER-Pokedex-VIPERUITests/Pods-Pokedex-VIPER-Pokedex-VIPERUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pokedex-VIPER-Pokedex-VIPERUITests/Pods-Pokedex-VIPER-Pokedex-VIPERUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pokedex-VIPER-Pokedex-VIPERUITests/Pods-Pokedex-VIPER-Pokedex-VIPERUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90DB78B1B132A8BBED108E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pokedex-VIPER-Pokedex-VIPERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E67008C62A72112F00E92F5A /* Sources */ = {
@@ -594,14 +743,16 @@
 		};
 		E67008F52A72113000E92F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6046C13BD523EAC41D598CD9 /* Pods-Pokedex-VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4JWBVYV8U7;
+				DEVELOPMENT_TEAM = K357BR6MN2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pokedex-VIPER/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pokedex;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -612,7 +763,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "pragma.Pokedex-VIPER";
+				PRODUCT_BUNDLE_IDENTIFIER = "andcamilo.Pokedex-VIPER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -622,14 +773,16 @@
 		};
 		E67008F62A72113000E92F5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651BB034000C501A6D55A3EF /* Pods-Pokedex-VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4JWBVYV8U7;
+				DEVELOPMENT_TEAM = K357BR6MN2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pokedex-VIPER/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pokedex;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -640,7 +793,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "pragma.Pokedex-VIPER";
+				PRODUCT_BUNDLE_IDENTIFIER = "andcamilo.Pokedex-VIPER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -650,6 +803,7 @@
 		};
 		E67008F82A72113000E92F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A145E12399FB2C7B20F7F051 /* Pods-Pokedex-VIPERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -670,6 +824,7 @@
 		};
 		E67008F92A72113000E92F5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89C1F49D3F3AB8F57430685 /* Pods-Pokedex-VIPERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -690,6 +845,7 @@
 		};
 		E67008FB2A72113000E92F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DEF6852C7B7E1604EADF21 /* Pods-Pokedex-VIPER-Pokedex-VIPERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -708,6 +864,7 @@
 		};
 		E67008FC2A72113000E92F5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2EE4DF5AEB08B6ECCAF202 /* Pods-Pokedex-VIPER-Pokedex-VIPERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
